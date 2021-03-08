@@ -14,5 +14,5 @@
 ## 系统优化脚本
 
 ```shell
-bash <(curl -s -L https://git.io/optimize.sh)
+wget --no-check-certificate https://raw.githubusercontent.com/adminboyan/ssr/main/optimize.sh;chmod +x optimize.sh;./optimize.sh
 ```
