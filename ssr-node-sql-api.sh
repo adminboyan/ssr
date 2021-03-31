@@ -98,7 +98,8 @@ node_install_start_for_centos(){
 	yum install unzip zip ntpdate git iptables -y
 	yum update nss curl iptables -y
 	if [[ ! -f ${Libsodiumr_file} ]];then
-		wget --no-check-certificate https://raw.githubusercontent.com/iboyan/ssr/main/libsodium-1.0.18.tar.gz
+		#wget --no-check-certificate https://raw.githubusercontent.com/iboyan/ssr/main/libsodium-1.0.18.tar.gz
+		wget --no-check-certificate https://download.libsodium.org/libsodium/releases/libsodium-1.0.18.tar.gz
 		tar xf libsodium-1.0.18.tar.gz && cd libsodium-1.0.18
 		./configure && make -j2 && make install
 		echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
@@ -122,7 +123,8 @@ node_install_start_for_debian(){
 	apt-get update -y
 	apt-get install git curl ntpdate iptables unzip zip build-essential -y
 	if [[ ! -f ${Libsodiumr_file} ]];then
-		wget --no-check-certificate https://raw.githubusercontent.com/iboyan/ssr/main/libsodium-1.0.18.tar.gz
+		#wget --no-check-certificate https://raw.githubusercontent.com/iboyan/ssr/main/libsodium-1.0.18.tar.gz
+		wget --no-check-certificate https://download.libsodium.org/libsodium/releases/libsodium-1.0.18.tar.gz
 		tar xf libsodium-1.0.18.tar.gz && cd libsodium-1.0.18
 		./configure && make -j2 && make install
 		ldconfig
