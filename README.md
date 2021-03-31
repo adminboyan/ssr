@@ -19,6 +19,13 @@ bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/node.sh")
 bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/optimize.sh")
 ```
 
+## 端口转发
+
+```shell
+bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/iptables-pf.sh")
+bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/socat.sh")
+```
+
 
 ## ©
 
