@@ -1,12 +1,12 @@
 # 使用教程
 
-## debian or ubuntu
+## Debian or Ubuntu
 ```shell
 apt-get install curl -y
 bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/node.sh")
 ```
 
-## centos7
+## Centos7
 
 ```shell
 yum install curl -y
