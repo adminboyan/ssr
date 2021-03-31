@@ -22,6 +22,4 @@ bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/optimize.sh"
 
 ## ©
 
-<span>
-部分文件来源互联网
-</span>
+<span>部分文件来源于互联网</span>
