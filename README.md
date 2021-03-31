@@ -14,5 +14,5 @@ bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/ssr-node-sql
 ## 系统优化脚本
 
 ```shell
-
+bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/optimize.sh")
 ```
