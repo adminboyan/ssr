@@ -26,7 +26,10 @@ bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/iptables-pf.
 bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/socat.sh")
 ```
 
-
+## 测速
+```shell
+bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/superspeed.sh")
+```
 ## ©
 
 <span>部分文件来源于互联网</span>
