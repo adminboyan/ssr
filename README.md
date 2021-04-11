@@ -2,14 +2,14 @@
 
 ## Debian or Ubuntu
 ```shell
-apt-get install curl -y
+apt-get install wget curl -y
 bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/node.sh")
 ```
 
 ## Centos7
 
 ```shell
-yum install curl -y
+yum install wget curl -y
 bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/ssr/main/node.sh")
 ```
 
